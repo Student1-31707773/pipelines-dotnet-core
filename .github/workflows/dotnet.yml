@@ -31,6 +31,6 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3.1.2
       with:
-        name: #webapp
+        name: webapp
         path: website/**
         if-no-files-found: warn
